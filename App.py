@@ -32,7 +32,8 @@ def run():
 )
 
     st.write("# First Streamlit App!")
-    st.text_input("Input something","")
+    inserttext = st.text_input("Input something","")
+    st.write(inserttext)
 
     #st.sidebar.success("Select a demo above.")
 
