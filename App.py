@@ -20,16 +20,16 @@ def run():
         initial_sidebar_state="collapsed",
     )
 
-    st.markdown(
-    """
-    <style>
-    [data-testid="collapsedControl"] {
-        display: none
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+#     st.markdown(
+#     """
+#     <style>
+#     [data-testid="collapsedControl"] {
+#         display: none
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
     st.write("# First Streamlit App!")
     inserttext = st.text_input("Input something","")
