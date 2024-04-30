@@ -25,6 +25,7 @@ def run():
     )
 
     st.write("# First Streamlit App!")
+    st.text_input("Input something","")
 
     #st.sidebar.success("Select a demo above.")
 
